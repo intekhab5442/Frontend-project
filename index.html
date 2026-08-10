@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundary Walla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="top">
+        <div class="container">
+            <div class="header-section" >
+                <div>
+                    <h2>Logo</h2>
+                </div>
+                <nav class="nav-item">
+                    <ul>
+                    <li><a href="#top">Home </a> </li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="Username">
+                    <h3> Username</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero">
+
+                <div class="col-sm-6 col-md-4">
+                    <h2>
+                        Revitalize Your Clothes With Expert <span style="color: #00eeff;">
+                            Laundary Services!
+                        </span>
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio a vero quam
+                        maiores recusandae porro. Optio enim sunt ipsam.</p>
+                    <button><a href="#Services"><i class="fa-brands fa-ups"></i>Book a Service today !</a></button>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="laundarmachine.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="Achievements">
+            <div class=" achievements" id="About-Us">
+                <div>
+                    <h3>Our Achievements</h3>
+                </div>
+                <div>
+                    <h3>15+</h3>
+                    <p>Laundary Services</p>
+                </div>
+                <div>
+                    <h3>240+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div>
+                    <h3>2+year</h3>
+                    <p>Experience</p>
+                </div>
+            </div>
+        </section>
+        <section class="Serivce-section" id="Services">
+            <div class="left col-md-6">
+                <div class="Service-head">
+                    <h2>Our Services</h2>
+                    <p>
+                        Click On The Add To Cart Button To Add The Services To Your Cart
+                    </p>
+                    
+                </div>
+                <div class="service-option">
+                    <div class="each-service">
+                        <p>Dry Cleaning </p> <span>&#8377;200.00</span>
+                        <button id="dry" class="Add">Add item<i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="each-service">
+                        <p>Wash & Fold</p>  <span>&#8377;100.00</span>
+                        <button id="wash" class="Add" >Add item<i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="each-service">
+                        <p>Ironing </p> <span>&#8377;30.00</span>
+                        <button id="Iron" class="Add">Add item<i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="each-service">
+                        <p>Stain Removal </p><span>&#8377;500.00</span>
+                        <button id="stain" class="Add">Add item<i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="each-service">
+                        <p>Leadher & Suede Cleaning </p><span >&#8377;999.00</span>
+                        <button id="Leadher" class="Add">Add item<i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="each-service">
+                        <p>Wedding Dress Cleaning </p><span>&#8377;2800.00</span>
+                        <button id="wedding" class="Add">Add item<i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    
+                    <p class="botton-para"><i class="fa-solid fa-info"></i> </i>Add the items to the cart and book now</p>
+                </div>
+            </div>
+            <div class="right col-md-4">
+                <div class="right-top">
+                    <h2>Added Item</h2>
+                    <div class="selected-head">
+                        <span>S.No</span> <span>Service Name</span> <span>price</span>
+                    </div>
+                  <ol class="prodeuct-added">
+                  </ol>
+
+                </div>
+                <div class="right-bottom">
+                    <h3>Book Now</h3>
+                    <form action="post">
+                        <div class="name-box">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Md intekhab">
+                        </div>
+                        <div class="contact-no">
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="intekhabm890@gmail.com">
+                            </div>
+                            <div>
+                                <label for="phone">Phone Number</label>
+                                <input type="number" id="phone" placeholder="1125122014">
+                            </div>
+                        </div>
+                    </form>
+                    <button class="book-now">Book now</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="quick-links">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 special">
+                    <i class="fa-solid fa-cloud"></i>
+                    <h3>Premium Services</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, obcaecati. </p>
+                </div>
+                <div class="col-md-3 col-sm-6 special">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Quick Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, obcaecati. </p>
+                </div>
+                <div class="col-md-3 col-sm-6 special">
+                    <i class="fa-solid fa-truck-ramp-box"></i>
+                    <h3>Hassel Free Delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, obcaecati. </p>
+                </div>
+                <div class="col-md-3 col-sm-6 special">
+                    <i class="fa-solid fa-money-check-dollar"></i>
+                    <h3>Affordable Prices</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, obcaecati. </p>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="news">
+                <div class="col-md-4 col-sm-6">
+                    <h2>Subscribe to our newsletter</h2>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <form action="post">
+                        <input type="text" placeholder="Full name">
+                        <input type="email" placeholder="Email">
+                    </form>
+                    <button type="submit" class="Subscribe">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer >
+        <div class="row">
+            <div class="col-sm-6 col-md-3 footer-item" id="about">
+                <div>
+                    <h2>Logo</h2>
+                </div>
+                <div>
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 footer-item"> 
+                <h3>Important links</h3>
+                <ul>
+                    
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#">Privet Policy</a></li>
+                    <li><a href="#">Term of use</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 footer-item contact" id="contact">
+                <div><h3>Contact Us</h3></div>
+                <ul>
+                    <li>+91 9123456780</li>
+                    <li>mail@site.com</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 footer-item " >
+                <div><h3>Follow us</h3></div>
+                <div class="follow">
+                    <ul>
+                    
+                    <li> <i class="fa-brands fa-instagram"> </i> </li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-square-twitter"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
